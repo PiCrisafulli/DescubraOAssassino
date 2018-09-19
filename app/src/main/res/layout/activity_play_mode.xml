@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<com.google.android.flexbox.FlexboxLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,23 +23,23 @@
 
             <Button
                 android:id="@+id/skeleton_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:background="@drawable/esqueletoavatar"
                 android:foreground="@drawable/border"/>
 
             <Button
                 android:id="@+id/khan_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/khanavatar"
                 android:foreground="@drawable/border"/>
 
             <Button
                 android:id="@+id/vader_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/dvaderavatar"
                 android:foreground="@drawable/border"/>
@@ -53,23 +53,23 @@
 
             <Button
                 android:id="@+id/ssbob_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:background="@drawable/ssbobavatar"
                 android:foreground="@drawable/border"/>
 
             <Button
                 android:id="@+id/joker_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/coringaavatar"
                 android:foreground="@drawable/border"/>
 
             <Button
                 android:id="@+id/greeng_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/dverdeavatar"
                 android:foreground="@drawable/border"/>
@@ -152,4 +152,4 @@
 
 
 
-</LinearLayout>
+</com.google.android.flexbox.FlexboxLayout>

@@ -49,6 +49,7 @@ public class PlayModeResultActivity extends AppCompatActivity  {
                Intent intent = new Intent(context,PlayModeActivity.class);
                intent.putExtra("misteryid",getIntent().getExtras().getString("misteryid"));
                startActivity(intent);
+               finish();
             }
         });
 
@@ -57,6 +58,7 @@ public class PlayModeResultActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 Intent intent = new Intent(context,MenuActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

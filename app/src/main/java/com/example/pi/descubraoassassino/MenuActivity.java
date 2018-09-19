@@ -54,16 +54,30 @@ public class MenuActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        audio.pause();
+    }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        audio.start();
+    }
+
     private void btnClick(int choice){
         Intent intent;
         switch(choice){
             case 1:
                 intent = new Intent(this, PlayModeActivity.class);
                 startActivity(intent);
+                finish();
                 break;
             case 2:
                 intent = new Intent(this, CreditsActivity.class);
                 startActivity(intent);
+                finish();
                 break;
             case 3:
                 finish();

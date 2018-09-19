@@ -93,6 +93,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         audio.stop();
         Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
+        finish();
 
     }
 

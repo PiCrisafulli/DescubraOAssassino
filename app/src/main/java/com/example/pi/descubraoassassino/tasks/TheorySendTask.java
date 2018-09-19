@@ -97,6 +97,7 @@ public class TheorySendTask extends AsyncTask<String, Void, JSONObject> {
                     intent.putExtra("result",value);
                     intent.putExtra("misteryid",((PlayModeActivity)context).getIntent().getExtras().getString("misteryid"));
                     context.startActivity(intent);
+                    ((PlayModeActivity) context).finish();
                 }
             }
         } catch (JSONException e) {
