@@ -103,8 +103,8 @@ public class PlayModeActivity extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        builder.setMessage("Carregando")
-                .setTitle("Espere carregar");
+        builder.setMessage("Espere carregar todos os campos")
+                .setTitle("Carregando");
 
         builder.setPositiveButton(R.string.ok_btn, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
