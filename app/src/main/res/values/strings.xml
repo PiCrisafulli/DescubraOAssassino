@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Descubra O Assassino</string>
+
+    //Splash Screen
+    <string name="splash_screen_text1">Descubra</string>
+    <string name="splash_screen_text2">o</string>
+    <string name="splash_screen_text3">Assassino</string>
+
+    //Result
+    <string name="case_One">Assassino está incorreto</string>
+    <string name="case_Two">Local está incorreto</string>
+    <string name="case_Three">Arma está incorreto</string>
+    <string name="case_Correct">Parabéns,sua teoria está correta</string>
+    <string name="theory_again">Deseja fazer outra teoria?</string>
+
+    //Feedback to user
+    <string name="play_again">Deseja jogar de novo?</string>
+    <string name="ok_btn">Ok</string>
+</resources>

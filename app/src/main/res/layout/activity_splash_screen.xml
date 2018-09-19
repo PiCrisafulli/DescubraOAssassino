@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:id="@+id/splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/splash_screen_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descubra"
+                android:textColor="@color/splash_background_text"
+                android:textSize="35sp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/splash_screen_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="o"
+                android:textColor="@color/splash_background_text"
+                android:textSize="35sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/splash_screen_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assassino"
+                android:textColor="@color/splash_background_text"
+                android:textSize="35sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
